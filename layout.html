@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+  <title>Layout</title>
+  <style>
+
+ /*   * {
+      border: 1px solid lightgrey;
+    }
+*/    article {
+      float: left;
+      width: 70%;
+    }
+    aside {
+      float: left;
+      width: 30%;
+    }
+
+    header>h1 {
+      text-align: center;
+    }
+    main {
+      background-color: #FF7519;
+    }
+    main::after {
+      content: "";
+      clear: both; /*This clear the above content link*/
+      display: block;
+    }
+    h2 {
+
+    }
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to our blog!</h1>
+  </header>
+  <main>
+    <article>
+      <h2>Introduction</h2>
+      <p>This post is quite interesting. We hope you like it.</p>
+      <h2>More Details</h2>
+      <p>This post is quite interesting. We hope you like it.</p>
+    </article>
+    <aside>
+      <h2>Other Articles</h2>
+      <ul>
+        <li>Article 1</li>
+        <li>Article 2</li>
+        <li>Article 3</li>
+      </ul>
+    </aside>
+  </main>
+  <footer>
+    <p>Copying 2015</p>
+  </footer>
+</body>
+</html>
