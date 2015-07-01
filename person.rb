@@ -43,7 +43,7 @@ people = [belinda, aileen]
 people.each do |person|
   if person.job == "D"
     puts "#{person.doctor}"
-    puts person.applaud
+    person.applaud
   elsif person.job == "L"
     puts "#{person.lawyer}"
   end
